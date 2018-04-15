@@ -1,7 +1,8 @@
-const books = require('./mockData')
+const { books } = require('./mockData')
 
 module.exports = {
   Query: {
-    books: () => books
+    books: () => books,
+    bookById: (_, { id }) => books[id]
   }
 }
