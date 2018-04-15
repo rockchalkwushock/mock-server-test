@@ -1,0 +1,18 @@
+{
+  "name": "mock-server-test",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/rockchalkwushock/mock-server-test.git",
+  "author": "Cody Brunner <rockchalkwushock@icloud.com> (https://codybrunner.me)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.3.4",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "graphql": "^0.13.2",
+    "graphql-tools": "^2.24.0"
+  }
+}
